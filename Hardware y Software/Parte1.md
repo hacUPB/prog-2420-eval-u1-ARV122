@@ -15,3 +15,17 @@ que permiten tanto introducir como extraer información de un sistema.
  Por ejemplo: un monitor táctil o una impresora multifunción.
 El bus de direcciones es el canal del microprocesador, que es independiente del bus de datos y que es donde se establece la dirección de memoria del dato que se está transmitiendo
 El bus de datos es el que permite la transferencia de datos entre la CPU y el resto de unidades presentes en un ordenador
+Software 
+Los sistemas operativos, también llamados núcleos o kernels, suelen ejecutarse de manera privilegiada respecto al resto del software, sin permitir que un programa cualquiera realice cambios de importancia sobre él que puedan comprometer su funcionamiento.
+
+Fuente: https://concepto.de/sistema-operativo/#ixzz8gwofwZM6
+Aplicaciones de usuario es un programa inforatico diseñado como herramienta para permitir a un usuario realizar uno o diversos tipos de tareas. Esto diferencua principalmente de otros tipos de programa, como los sistemas operativos, las utilidades, y las herramientas de desarrollo de software.
+https://es.slideshare.net/slideshow/sistemas-operativos-y-aplicaciones-de-usuario/137189764#10
+Es un software que permite que el sistema operativo se pueda comunicar con un componente físico (hardware) o una aplicación determinada Los drivers permiten la comunicación sencilla entre el sistema operativo y el componente. Sencillamente, un controlador le dice al sistema operativo como dirigirse al componente y el «idioma»
+El software propiamente dicho es el conjunto de instrucciones o programas que indican a una computadora lo que debe hacer. Es independiente del hardware y hace que las computadoras sean programables. Existen tres tipos básicos:
+
+Software de sistema para proporcionar funciones básicas como sistemas operativos, gestión de discos, utilidades, gestión de hardware y otras necesidades operativas.
+
+Software de programación para proporcionar a los programadores herramientas como editores de texto, compiladores, enlazadores, depuradores y otras herramientas para crear código.
+
+Software de aplicación (aplicaciones o apps) para ayudar a los usuarios a realizar tareas. Las suites de productividad de oficina, el software de gestión de datos, los reproductores multimedia y los programas de seguridad son algunos ejemplos.
