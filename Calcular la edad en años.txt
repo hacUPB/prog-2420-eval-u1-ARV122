@@ -1,0 +1,44 @@
+Inicio
+
+Entrada de Datos
+
+Ingresar día_nacimiento, mes_nacimiento, año_nacimiento
+Ingresar día_actual, mes_actual, año_actual
+Crear Objetos de Fecha
+
+Crear fecha_nacimiento usando día_nacimiento, mes_nacimiento, año_nacimiento
+Crear fecha_actual usando día_actual, mes_actual, año_actual
+Calcular Edad en Años
+
+Inicializar edad_anos con (año_actual - año_nacimiento)
+Si (mes_actual < mes_nacimiento) o (mes_actual == mes_nacimiento y día_actual < día_nacimiento), entonces:
+Reducir edad_anos en 1
+Calcular Diferencia en Días
+
+Calcular fecha_nacimiento_actual como la fecha de nacimiento del año actual
+Si fecha_actual < fecha_nacimiento_actual, entonces:
+Ajustar fecha_nacimiento a fecha_nacimiento del año anterior
+Calcular diferencia como la diferencia en días entre fecha_actual y fecha_nacimiento
+Calcular Meses y Días Restantes
+
+Calcular meses_totales como diferencia dividido por 30 (aproximadamente)
+Calcular dias_totales como el resto de diferencia dividido por 30
+Calcular edad_meses como meses_totales mod 12
+Calcular edad_dias como dias_totales
+Verificar Cumplimiento de Año
+
+Establecer cumplio_anos como True si (mes_actual > mes_nacimiento) o (mes_actual == mes_nacimiento y día_actual >= día_nacimiento)
+De lo contrario, cumplio_anos = False
+Verificar Cumpleaños
+
+Establecer es_cumpleanos como True si (día_actual == día_nacimiento) y (mes_actual == mes_nacimiento)
+De lo contrario, es_cumpleanos = False
+Salida de Resultados
+
+Imprimir edad_anos, edad_meses, edad_dias
+Imprimir cumplio_anos
+Imprimir es_cumpleanos
+Fin
+
+
+
